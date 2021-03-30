@@ -1,10 +1,11 @@
 import React from 'react'
+import * as S from './styles'
 
 const First = () => {
   return (
-    <main>
+    <S.Wrapper>
       <h1>realize b2c</h1>
-    </main>
+    </S.Wrapper>
   )
 }
 
