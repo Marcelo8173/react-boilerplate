@@ -11,6 +11,7 @@ describe('<First />', () => {
       screen.getByRole('heading', { name: /realize b2c/i })
     ).toBeInTheDocument()
 
+    //snapshot
     expect(container.firstChild).toMatchSnapshot()
   })
 })
