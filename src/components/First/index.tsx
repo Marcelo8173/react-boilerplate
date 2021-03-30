@@ -1,10 +1,10 @@
 import React from 'react'
 import * as S from './styles'
 
-const First = () => {
+const First = ({ title = 'realize' }) => {
   return (
     <S.Wrapper>
-      <h1>realize b2c</h1>
+      <h1>{title}</h1>
     </S.Wrapper>
   )
 }
